@@ -8,8 +8,8 @@
   --accent-bbh: #b99862;
   --accent-light: #dac8ab;
   --accent-lighter: #F4F2EE; 
-  --accent-transparent-9: rgba(185, 152, 98, .9);
-  --accent-transparent-5: rgba(185, 152, 98, .5);
+  --accent-transparent-9: rgba(185, 152, 98, .8);
+  --accent-transparent-5: rgba(185, 152, 98, .1);
 
 
 }
@@ -373,7 +373,12 @@ header.masthead .intro-text .intro-heading {
 .portfolio-modal .modal-content img {
   margin-bottom: 30px;
 }
-
+.rotate-90 {
+  transform: rotate(90deg);
+}
+.rotate-270 {
+  transform: rotate(-90deg);
+}
 .portfolio-modal .modal-content button {
   cursor: pointer;
 }
