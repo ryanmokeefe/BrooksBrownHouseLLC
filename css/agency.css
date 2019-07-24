@@ -710,16 +710,17 @@ header.masthead .intro-text .intro-heading {
   background-repeat: no-repeat;
   height: 100vh;
   padding: 0 10%;
-
 } 
 
 .how-bg {
   background-image: url("../img/bg/wood5.jpg");
 }
 .how-circle:hover {
-  cursor: pointer;: 
+  cursor: pointer; 
 }
 
+
+ 
 section#contact {
   background-color: var(--navy);
   background-image: url("../img/map-image.png");
