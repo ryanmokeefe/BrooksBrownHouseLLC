@@ -37,36 +37,39 @@ a:hover {
   transition: .5s;
   color: var(--accent-bbh) !important;
 }
-.how-circle:hover .text-primary {
-  transition: .5s;
-  color: var(--accent-darker) !important;
-}
 .text-secondary {
   transition: .5s;
   color: var(--navy) !important;
 }
-.how-circle:hover .text-secondary {
-  transition: .5s;
-  color: var(--navy-2) !important;
-}
+
 .fa-home, .fa-road, .fa-seedling {
   transition: 1s;
-}
-.how-circle:hover .fa-home, .how-circle:hover .fa-road, .how-circle:hover .fa-seedling {
-  transition: 1s;
-  font-size: 70px;
 }
 .fa-circle {
   transition: 1s;
   margin: 2px auto;
 }
-.how-circle:hover .fa-circle {
-  transition: 1s;
-  font-size: 132px;
-  margin: 0 auto;
-} 
 
-
+/*  */
+@media (min-width: 675px) {
+  .how-circle:hover .fa-circle {
+    transition: 1s;
+    font-size: 132px;
+    margin: 0 auto;
+  } 
+  .how-circle:hover .text-primary {
+    transition: .5s;
+    color: var(--accent-darker) !important;
+  }
+  .how-circle:hover .text-secondary {
+    transition: .5s;
+    color: var(--navy-2) !important;
+  }
+  .how-circle:hover .fa-home, .how-circle:hover .fa-road, .how-circle:hover .fa-seedling {
+    transition: 1s;
+    font-size: 70px;
+  }
+}
 
 h1,
 h2,
@@ -299,10 +302,6 @@ header.masthead .intro-text .intro-heading {
 .service-heading2 {
   transition: 1s;
   color: white;
-}
-.how-circle:hover .service-heading {
-  transition: 1s;
-  letter-spacing: 1px; 
 }
 
 #portfolio .portfolio-item {
@@ -718,9 +717,37 @@ header.masthead .intro-text .intro-heading {
 .how-circle:hover {
   cursor: pointer; 
 }
+.how-sections .row {
+  margin: 0 auto;
+  width: 100%;
+}
+.how-sections .container .row .col {
+  width: 70vw;
+} 
 
+@media (min-width: 769px) {
+  .how-sections .container .row .col {
+    width: 35vw;
+  } 
+}
 
- 
+.how-h4 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto 30px;
+  width: 100%;
+}
+
+.services-link {
+  scroll-behavior: smooth;
+  text-decoration: none;
+}
+.services-link:hover {
+  text-decoration: none;
+}
+
 section#contact {
   background-color: var(--navy);
   background-image: url("../img/map-image.png");
