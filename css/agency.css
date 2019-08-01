@@ -7,9 +7,6 @@
   --accent-transparent-5: rgba(185, 152, 98, .1);
   --navy: #212529;
   --navy-2: #2e343a;
-
-
-
 }
 body {
   overflow-x: hidden;
@@ -29,39 +26,50 @@ a:hover {
 }
 
 .text-primary {
-  transition: .5s;
+  -webkit-transition: all ease 0.15s;
+  transition: all .15s;
   color: var(--accent-bbh) !important;
+
 }
 .text-secondary {
-  transition: .5s;
+  -webkit-transition: all ease 0.15s;
+  transition: all .15s;
   color: var(--navy) !important;
 }
 
 .fa-home, .fa-road, .fa-seedling {
-  transition: 1s;
+  -webkit-transition: all ease 0.15s;
+  transition: all .15s;
 }
 .fa-circle {
-  transition: 1s;
+  -webkit-transition: all ease 0.15s;
+  transition: all .15s;
   margin: 2px auto;
 }
 
 /*  */
 @media (min-width: 675px) {
   .how-circle:hover .fa-circle {
-    transition: 1s;
-    font-size: 132px;
-    margin: 0 auto;
+    -webkit-transition: all ease 0.15s;
+    transition: all .15s;
+    /* font-size: 132px; 
+    margin: 0 auto; */
+
   } 
   .how-circle:hover .text-primary {
-    transition: .5s;
+    -webkit-transition: all ease 0.15s;
+    transition: all .15s;
     color: var(--accent-darker) !important;
   }
   .how-circle:hover .text-secondary {
-    transition: .5s;
+    -webkit-transition: all ease 0.15s;
+    transition: all .15s;
     color: var(--navy-2) !important;
+
   }
   .how-circle:hover .fa-home, .how-circle:hover .fa-road, .how-circle:hover .fa-seedling {
-    transition: 1s;
+    -webkit-transition: all ease 0.15s;
+    transition: all .15s;
     font-size: 70px;
   }
 }
@@ -289,12 +297,14 @@ header.masthead .intro-text .intro-heading {
   }
 }
 .service-heading {
+  -webkit-transition: all 1s;
   transition: 1s;
   margin: 15px 0;
   padding: 0;
   text-transform: none;
 }
 .service-heading2 {
+  -webkit-transition: all 1s;
   transition: 1s;
   color: white;
 }
