@@ -732,9 +732,9 @@ header.masthead .intro-text .intro-heading {
   width: 70vw;
 } 
 
-@media (min-width: 769px) {
+@media (min-width: 700px) {
   .how-sections .container .row .col {
-    width: 35vw;
+    width: 25vw;
   } 
 }
 .how-h2 {
@@ -751,24 +751,25 @@ header.masthead .intro-text .intro-heading {
   width: 100%;
 }
 .wide {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
   width: 100vw;
+  margin: 0 auto;
   text-align: center;
 }
-.wide ul {
+.consult ul {
   list-style: none;
 }
-.wide li {
+.consult li {
   margin: 0 auto;
-  width: 300px;
   position: relative;
-  left: -20px;
-  text-align: center;
+  text-align: left;
 }
-.wide a {
-  margin: 50px;
+.action {
+  margin: 75px auto;
 }
-
-
 
 .services-link {
   scroll-behavior: smooth;
