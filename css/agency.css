@@ -28,6 +28,9 @@ a:hover {
 .text-primary {
   -webkit-transition: all ease 0.15s;
   transition: all .15s;
+
+  /* TODO: Either/or */
+  /* color: var(--navy) !important; */
   color: var(--accent-bbh) !important;
 
 }
@@ -65,7 +68,6 @@ a:hover {
     -webkit-transition: all ease 0.15s;
     transition: all .15s;
     color: var(--navy-2) !important;
-
   }
   .how-circle:hover .fa-home, .how-circle:hover .fa-road, .how-circle:hover .fa-seedling {
     -webkit-transition: all ease 0.15s;
@@ -735,15 +737,38 @@ header.masthead .intro-text .intro-heading {
     width: 35vw;
   } 
 }
-
+.how-h2 {
+  /* TODO: @media 1045px / Adjust for Mobile-First*/
+  margin-bottom: 75px;
+}
 .how-h4 {
   display: flex;
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  margin: 0 auto 30px;
+  /* TODO: @media 1045px / Adjust for Mobile-First*/
+  margin: 50px auto;
   width: 100%;
 }
+.wide {
+  width: 100vw;
+  text-align: center;
+}
+.wide ul {
+  list-style: none;
+}
+.wide li {
+  margin: 0 auto;
+  width: 300px;
+  position: relative;
+  left: -20px;
+  text-align: center;
+}
+.wide a {
+  margin: 50px;
+}
+
+
 
 .services-link {
   scroll-behavior: smooth;
