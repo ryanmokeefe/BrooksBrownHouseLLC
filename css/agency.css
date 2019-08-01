@@ -770,6 +770,16 @@ header.masthead .intro-text .intro-heading {
 .action {
   margin: 75px auto;
 }
+.program {
+  border-right: 1px solid black; 
+  border-bottom: 1px solid black; 
+}
+.model {
+  border-bottom: 1px solid black; 
+}
+.consult {
+  border-right: 1px solid black; 
+}
 
 .services-link {
   scroll-behavior: smooth;
