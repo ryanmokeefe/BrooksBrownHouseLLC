@@ -737,6 +737,16 @@ header.masthead .intro-text .intro-heading {
     width: 25vw;
   } 
 }
+
+/* Services-3 option */
+
+#tenant-hb .container .row .col {
+  
+}
+
+/*  */
+
+
 .how-h2 {
   /* TODO: @media 1045px / Adjust for Mobile-First*/
   margin-bottom: 75px;
