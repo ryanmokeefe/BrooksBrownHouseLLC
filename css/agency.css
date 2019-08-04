@@ -792,6 +792,11 @@ header.masthead .intro-text .intro-heading {
   .consult {
     border-right: 1px solid black; 
   }
+/*  */
+  .model-2 {
+    border-right: 1px solid black;
+    border-left: 1px solid black;
+  }
 }
 
 .services-link {
