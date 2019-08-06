@@ -760,6 +760,10 @@ header.masthead .intro-text .intro-heading {
   margin: 50px auto;
   width: 100%;
 }
+.center-align {
+  padding: 0 50px 20px !important;
+  text-align: center;
+}
 .wide {
   display: flex;
   flex-direction: column;
@@ -769,27 +773,31 @@ header.masthead .intro-text .intro-heading {
   margin: 0 auto;
   text-align: center;
 }
-.consult ul {
+.list ul {
   list-style: none;
 }
-.consult li {
+.list li {
   margin: 0 auto;
   position: relative;
   text-align: left;
 }
-.action {
+
+@media (min-width: 400px) {
+  .action {
   margin: 75px auto;
+  }
+
 }
 /*  */
 @media (min-width: 760px) {
-  .program {
+  .how-1 {
     border-right: 1px solid black; 
     border-bottom: 1px solid black; 
   }
-  .model {
+  .how-2 {
     border-bottom: 1px solid black; 
   }
-  .consult {
+  .how-3 {
     border-right: 1px solid black; 
   }
 /*  */
